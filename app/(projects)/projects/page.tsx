@@ -1,9 +1,11 @@
+"use client";
+
 import { ProjectCard } from "@/components/sccomps/Project";
 import { db } from "@/lib/db";
 import { useLiveQuery } from "dexie-react-hooks"
 
 
-export default function projectsPage() {
+export default function ProjectsPage() {
   
   // We want to first fetch all projects and if there are no projects simply write there are no projects
   const projects = useLiveQuery(() => db.projects.toArray());
