@@ -16,7 +16,7 @@ export default function Home() {
             create, push and deploy your projects
           </h2>
         </div>
-        <Button className="rounded-full mt-7.5">
+        <Button className="rounded-full cursor-pointer mt-7.5">
           <span className="font-sans text-base font-normal">Create project</span>
         </Button>
         <div className="relative flex justify-center items-center border border-[#D9D9D9] bg-[#F2F2F2] overflow-hidden mt-15 w-310 h-175 rounded-[15px]">
